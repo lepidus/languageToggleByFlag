@@ -17,7 +17,7 @@
 <plugin_settings>
 	<setting type="bool">
 		<name>enabled</name>
-		<value>false</value>
+		<value>0</value>
 	</setting>
 	<setting type="int">
 		<name>seq</name>
