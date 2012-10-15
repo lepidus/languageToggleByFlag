@@ -1,8 +1,9 @@
 {**
  * block.tpl
  *
- * Copyright (c) 2003-2012 John Willinsky
- * Contributed by from by Lepidus Tecnologia
+ * Copyright (c) 2012-2012 Lepidus Tecnologia
+ *
+ * Based on http://pkp.sfu.ca/support/forum/viewtopic.php?f=28&t=5501
  *
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *

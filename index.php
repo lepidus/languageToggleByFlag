@@ -7,10 +7,11 @@
 /**
  * @file plugins/blocks/flagLanguageToggle/index.php
  *
- * Copyright (c) 2003-2012 John Willinsky
- * Contributed by from by Lepidus Tecnologia
+ * Copyright (c) 2012-2012 Lepidus Tecnologia
  * 
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+ *
+ * Flag icons by Mark James. Available in http://www.famfamfam.com
  *
  * @ingroup plugins_blocks_flagLanguageToggle
  * @brief Wrapper for language selector block plugin.
