@@ -55,6 +55,9 @@ class FlagLanguageToggleBlockPlugin extends BlockPlugin {
 	 * Get the HTML contents for this block.
 	 */
 	function getContents(&$templateMgr) {
+		$path = Request::getBaseUrl() . '/' . $this->getPluginPath() . '/flagToggle.css';
+		$templateMgr->addStyleSheet($path);
+
 		$templateMgr->assign('isPostRequest', Request::isPost());
 		if (!defined('SESSION_DISABLE_INIT')) {
 			$journal =& Request::getJournal();
@@ -78,6 +81,7 @@ class FlagLanguageToggleBlockPlugin extends BlockPlugin {
 
 		return parent::getContents($templateMgr);
 	}
+
 }
 
 ?>

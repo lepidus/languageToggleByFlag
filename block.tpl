@@ -15,10 +15,9 @@
 	
 	{foreach from=$languageToggleLocales key=langkey item=langname}
 		{if $langkey == $currentLocale}
-		    <img src="{$baseUrl}/{$plugin->getPluginPath()}/locale/{$langkey}/flag.png" alt="{$langname}" title="{$langname}" width="16" height="11" />
+		    <div class="langFlag {$langkey}" alt="{$langname}" title="{$langname}"></div>
 		{else}
-			<a class="icon" href={if $languageToggleNoUser}'{$currentUrl|escape}{if strstr($currentUrl, '?')}&{else}?{/if}setLocale={$langkey}'{else}'{url page="user" op="setLocale" path=$langkey source=$smarty.server.REQUEST_URI escape=false}'{/if}>
-	            <img src="{$baseUrl}/{$plugin->getPluginPath()}/locale/{$langkey}/flag.png" alt="{$langname}" title="{$langname}" width="16" height="11" />
+			<a class="icon langFlag {$langkey}" href={if $languageToggleNoUser}'{$currentUrl|escape}{if strstr($currentUrl, '?')}&{else}?{/if}setLocale={$langkey}'{else}'{url page="user" op="setLocale" path=$langkey source=$smarty.server.REQUEST_URI escape=false}'{/if}>
 			</a>
 		{/if}
 	{/foreach}
