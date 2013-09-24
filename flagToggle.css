@@ -9,20 +9,19 @@
 	margin-bottom: 5px;
 }
 
-/* For modern browsers */
-#sidebarFlagLanguageToggle:before,
-#sidebarFlagLanguageToggle:after {
+#sidebarFlagLanguageToggle .roundedCorner:before, #sidebarFlagLanguageToggle .roundedCorner:after,
+#sidebarFlagLanguageToggle:before, #sidebarFlagLanguageToggle:after {
     content:"";
     display:table;
 }
+#sidebarFlagLanguageToggle .roundedCorner:after,
 #sidebarFlagLanguageToggle:after {
     clear:both;
 }
-/* For IE 6/7 (trigger hasLayout) */
+#sidebarFlagLanguageToggle .roundedCorner,
 #sidebarFlagLanguageToggle {
     zoom:1;
 }
-
 
 #sidebarFlagLanguageToggle .langFlag.ca_ES {
 	background-image: url("locale/ca_ES/flag.png")
