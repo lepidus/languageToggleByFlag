@@ -44,6 +44,9 @@
 #sidebarFlagLanguageToggle .langFlag.es_ES {
 	background-image: url("locale/es_ES/flag.png")
 }
+#sidebarFlagLanguageToggle .langFlag.es_AR {
+	background-image: url("locale/es_AR/flag.png")
+}
 #sidebarFlagLanguageToggle .langFlag.eu_ES {
 	background-image: url("locale/eu_ES/flag.png")
 }
@@ -52,6 +55,9 @@
 }
 #sidebarFlagLanguageToggle .langFlag.fr_CA {
 	background-image: url("locale/fr_CA/flag.png")
+}
+#sidebarFlagLanguageToggle .langFlag.fr_FR {
+	background-image: url("locale/fr_FR/flag.png")
 }
 #sidebarFlagLanguageToggle .langFlag.hr_HR {
 	background-image: url("locale/hr_HR/flag.png")
