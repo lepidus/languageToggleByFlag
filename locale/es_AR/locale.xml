@@ -7,12 +7,12 @@
   * Copyright (c) 2012-2012 Lepidus Tecnologia
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
   *
-  * Localization strings for the es_ES (Español (España)) locale.
+  * Localization strings for the es_ES (Español (Argentina)) locale.
   *
   * $Id$
   -->
  
-<locale name="es_ES" full_name="Español (España)">
+<locale name="es_AR" full_name="Español (Argentina)">
 	<message key="plugins.block.flagLanguageToggle.displayName">Bloque de cambios entre lenguajes</message>
 	<message key="plugins.block.flagLanguageToggle.description">Este plugin permite cambiar entre lenguajes en la barra lateral.</message>
 </locale>
