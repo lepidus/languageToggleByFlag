@@ -1,28 +1,22 @@
 <?php
-
 /**
- * @defgroup plugins_blocks_flagLanguageToggle
+ * @defgroup plugins_blocks_flaglanguageToggle Flag Language Toggle Block Plugin
  */
  
 /**
- * @file plugins/blocks/flagLanguageToggle/index.php
+ * @file plugins/blocks/flaglanguageToggle/index.php
  *
- * Copyright (c) 2012-2012 Lepidus Tecnologia
- * 
+ * Copyright (c) 2014-2019 Simon Fraser University
+ * Copyright (c) 2003-2019 John Willinsky
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
- * Flag icons by Mark James. Available in http://www.famfamfam.com
- *
- * @ingroup plugins_blocks_flagLanguageToggle
+ * @ingroup plugins_blocks_flaglanguageToggle
  * @brief Wrapper for language selector block plugin.
  *
  */
 
-// $Id$
+require_once('FlagToggleLanguageBlockPlugin.inc.php');
+
+return new FlagToggleLanguageBlockPlugin();
 
 
-require_once('FlagLanguageToggleBlockPlugin.inc.php');
-
-return new FlagLanguageToggleBlockPlugin();
-
-?> 

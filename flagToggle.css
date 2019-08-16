@@ -1,100 +1,85 @@
-#sidebarFlagLanguageToggle .langFlag {
-	outline: none; /*for making it look nice in FF */
-	display: block;
-	float: left;
-	width: 16px;
-	height: 11px;
-	margin-right: 2px;
-	margin-left: 0;
-	margin-bottom: 5px;
+
+.flagToggle {
+    background-size: contain;
+    background-repeat: no-repeat;
+    float: left;
+    width: 16px;
+    margin-top: 5px;
+    margin-right: 5px;
 }
 
-#sidebarFlagLanguageToggle .roundedCorner:before, #sidebarFlagLanguageToggle .roundedCorner:after,
-#sidebarFlagLanguageToggle:before, #sidebarFlagLanguageToggle:after {
-    content:"";
-    display:table;
-}
-#sidebarFlagLanguageToggle .roundedCorner:after,
-#sidebarFlagLanguageToggle:after {
-    clear:both;
-}
-#sidebarFlagLanguageToggle .roundedCorner,
-#sidebarFlagLanguageToggle {
-    zoom:1;
-}
-
-#sidebarFlagLanguageToggle .langFlag.ca_ES {
+.flagToggle.ca_ES {
 	background-image: url("locale/ca_ES/flag.png")
 }
-#sidebarFlagLanguageToggle .langFlag.cs_CZ {
+.flagToggle.cs_CZ {
 	background-image: url("locale/cs_CZ/flag.png")
 }
-#sidebarFlagLanguageToggle .langFlag.da_DK {
+.flagToggle.da_DK {
 	background-image: url("locale/da_DK/flag.png")
 }
-#sidebarFlagLanguageToggle .langFlag.de_DE {
+.flagToggle.de_DE {
 	background-image: url("locale/de_DE/flag.png")
 }
-#sidebarFlagLanguageToggle .langFlag.el_GR {
+.flagToggle.el_GR {
 	background-image: url("locale/el_GR/flag.png")
 }
-#sidebarFlagLanguageToggle .langFlag.en_US {
+.flagToggle.en_US {
 	background-image: url("locale/en_US/flag.png")
 }
-#sidebarFlagLanguageToggle .langFlag.es_ES {
+.flagToggle.es_ES {
 	background-image: url("locale/es_ES/flag.png")
 }
-#sidebarFlagLanguageToggle .langFlag.es_AR {
+.flagToggle.es_AR {
 	background-image: url("locale/es_AR/flag.png")
 }
-#sidebarFlagLanguageToggle .langFlag.eu_ES {
+.flagToggle.eu_ES {
 	background-image: url("locale/eu_ES/flag.png")
 }
-#sidebarFlagLanguageToggle .langFlag.fa_IR {
+.flagToggle.fa_IR {
 	background-image: url("locale/fa_IR/flag.png")
 }
-#sidebarFlagLanguageToggle .langFlag.fr_CA {
+.flagToggle.fr_CA {
 	background-image: url("locale/fr_CA/flag.png")
 }
-#sidebarFlagLanguageToggle .langFlag.fr_FR {
+.flagToggle.fr_FR {
 	background-image: url("locale/fr_FR/flag.png")
 }
-#sidebarFlagLanguageToggle .langFlag.hr_HR {
+.flagToggle.hr_HR {
 	background-image: url("locale/hr_HR/flag.png")
 }
-#sidebarFlagLanguageToggle .langFlag.it_IT {
+.flagToggle.it_IT {
 	background-image: url("locale/it_IT/flag.png")
 }
-#sidebarFlagLanguageToggle .langFlag.ja_JP {
+.flagToggle.ja_JP {
 	background-image: url("locale/ja_JP/flag.png")
 }
-#sidebarFlagLanguageToggle .langFlag.nl_NL {
+.flagToggle.nl_NL {
 	background-image: url("locale/nl_NL/flag.png")
 }
-#sidebarFlagLanguageToggle .langFlag.no_NO {
+.flagToggle.no_NO {
 	background-image: url("locale/no_NO/flag.png")
 }
-#sidebarFlagLanguageToggle .langFlag.pt_BR {
+.flagToggle.pt_BR {
 	background-image: url("locale/pt_BR/flag.png")
 }
-#sidebarFlagLanguageToggle .langFlag.pt_PT {
+.flagToggle.pt_PT {
 	background-image: url("locale/pt_PT/flag.png")
 }
-#sidebarFlagLanguageToggle .langFlag.ro_RO {
+.flagToggle.ro_RO {
 	background-image: url("locale/ro_RO/flag.png")
 }
-#sidebarFlagLanguageToggle .langFlag.ru_RU {
+.flagToggle.ru_RU {
 	background-image: url("locale/ru_RU/flag.png")
 }
-#sidebarFlagLanguageToggle .langFlag.sv_SE {
+.flagToggle.sv_SE {
 	background-image: url("locale/sv_SE/flag.png")
 }
-#sidebarFlagLanguageToggle .langFlag.uk_UA {
+.flagToggle.uk_UA {
 	background-image: url("locale/uk_UA/flag.png")
 }
-#sidebarFlagLanguageToggle .langFlag.vi_VN {
+.flagToggle.vi_VN {
 	background-image: url("locale/vi_VN/flag.png")
 }
-#sidebarFlagLanguageToggle .langFlag.zh_CN {
+.flagToggle.zh_CN {
 	background-image: url("locale/zh_CN/flag.png")
 }
