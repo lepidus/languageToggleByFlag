@@ -26,7 +26,9 @@
 						<span class="flagToggle {$localeKey}">
 						&nbsp;
 						</span>
+
 						{$localeName}
+
 					</a>
 				</li>
 			{/foreach}
