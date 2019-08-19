@@ -91,14 +91,17 @@ class FlagToggleLanguageBlockPlugin extends BlockPlugin {
 	 * @param $request PKPRequest
 	 */
 	
+	function register($category, $path, $mainContextId = NULL) {
+		$success = parent::register($category, $path);
+		$request = Application::getRequest();
+		$url = $request->getBaseUrl() . '/' . $this->getPluginPath() . '/flagToggle.css';
+		$templateMgr = TemplateManager::getManager($request);
+		$templateMgr->addStyleSheet('flagToggle', $url);
+		return $success;
+	}
+
 	function getContents($templateMgr, $request = null){
 
-		/*------- TENTATIVA DE COLOCAR CSS NO TEMPLEATEMNGR -----------*/
-		// $request = Application::getRequest();
-		// $url = $request->getBaseUrl() . '/' . $this->getPluginPath() . '/flagToggle.css';
-		// $templateMgr = TemplateManager::getManager($request);
-		// $templateMgr->addStyleSheet('flagToggle', $url);
-	
 		$templateMgr->assign('path', $this->flagPath);
 
 		$templateMgr->assign('isPostRequest', $request->isPost());

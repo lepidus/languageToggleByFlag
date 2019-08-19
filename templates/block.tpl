@@ -9,8 +9,6 @@
  *}
 
 
-<style type="text/css"> @import url("{$path}../flagToggle.css"); </style>
-
 {if $enableLanguageToggle}
 <div class="pkp_block block_language">
 	<span class="title">
