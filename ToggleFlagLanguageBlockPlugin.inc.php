@@ -15,7 +15,7 @@
 
 import('lib.pkp.classes.plugins.BlockPlugin');
 
-class FlagToggleLanguageBlockPlugin extends BlockPlugin {
+class ToggleFlagLanguageBlockPlugin extends BlockPlugin {
 	/**
 	 * Determine whether the plugin is enabled. Overrides parent so that
 	 * the plugin will be displayed during install.
