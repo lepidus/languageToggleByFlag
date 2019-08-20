@@ -25,7 +25,12 @@
 						&nbsp;
 						</span>
 
-						{$localeName}
+						{if $currentLocale === $localeKey}
+							<strong>{$localeName}</strong>
+						
+						{else}
+							{$localeName}
+						{/if}
 
 					</a>
 				</li>
