@@ -15,8 +15,8 @@
  *
  */
 
-require_once('ToggleFlagLanguageBlockPlugin.inc.php');
+require_once('BandeiraIdiomaBlockPlugin.inc.php');
 
-return new ToggleFlagLanguageBlockPlugin();
+return new BandeiraIdiomaBlockPlugin();
 
 

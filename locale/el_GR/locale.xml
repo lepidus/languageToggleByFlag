@@ -20,6 +20,6 @@
   -->
  
 <locale name="el_GR" full_name="Greek">
-	<message key="plugins.block.flagLanguageToggle.displayName">Block Αλλαγής Γλώσσας</message>
-	<message key="plugins.block.flagLanguageToggle.description">Το plugin αυτό παρέχει ένα εργαλείο Αλλαγής γλώσσας στην πλαϊνή μπάρα.</message>
+	<message key="plugins.block.bandeiraIdiomaBlock.displayName">Block Αλλαγής Γλώσσας</message>
+	<message key="plugins.block.bandeiraIdiomaBlock.description">Το plugin αυτό παρέχει ένα εργαλείο Αλλαγής γλώσσας στην πλαϊνή μπάρα.</message>
 </locale>

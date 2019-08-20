@@ -13,6 +13,6 @@
   -->
  
 <locale name="zh_CN" full_name="China">
-	<message key="plugins.block.flagLanguageToggle.displayName">语言切换单元</message>
-	<message key="plugins.block.flagLanguageToggle.description">本插件在边栏提供语言切换.</message>
+	<message key="plugins.block.bandeiraIdiomaBlock.displayName">语言切换单元</message>
+	<message key="plugins.block.bandeiraIdiomaBlock.description">本插件在边栏提供语言切换.</message>
 </locale>
