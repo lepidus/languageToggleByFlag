@@ -13,6 +13,6 @@
   -->
  
 <locale name="en_US" full_name="U.S. English">
-	<message key="plugins.block.flagLanguageToggle.displayName">Блок переключения языка</message>
-	<message key="plugins.block.flagLanguageToggle.description">Позволяет переключать язык страницы.</message>
+	<message key="plugins.block.bandeiraIdiomaBlock.displayName">Блок переключения языка</message>
+	<message key="plugins.block.bandeiraIdiomaBlock.description">Позволяет переключать язык страницы.</message>
 </locale>

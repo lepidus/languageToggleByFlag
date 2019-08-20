@@ -13,7 +13,7 @@
   -->
  
 <locale name="eu_ES" full_name="Euskara">
-	<message key="plugins.block.flagLanguageToggle.displayName">Hizkuntza aldatzeko blokea</message>
-	<message key="plugins.block.flagLanguageToggle.description">Plugin honek hizkuntza-aldatzeko aukera ematen du alboko barran.</message>
+	<message key="plugins.block.bandeiraIdiomaBlock.displayName">Hizkuntza aldatzeko blokea</message>
+	<message key="plugins.block.bandeiraIdiomaBlock.description">Plugin honek hizkuntza-aldatzeko aukera ematen du alboko barran.</message>
 </locale>
 

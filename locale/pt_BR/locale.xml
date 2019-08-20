@@ -13,6 +13,6 @@
   -->
  
 <locale name="pt_BR" full_name="Português do Brasil">
-	<message key="plugins.block.flagLanguageToggleBlock.displayName">Alteração de idioma pela bandeira</message>
-	<message key="plugins.block.flagLanguageToggleBlock.description">Este plugin oferece a ferramenta de alteração de idiomas na barra lateral.</message>
+	<message key="plugins.block.bandeiraIdiomaBlock.displayName">Alteração de idioma pela bandeira</message>
+	<message key="plugins.block.bandeiraIdiomaBlock.description">Este plugin oferece a ferramenta de alteração de idiomas na barra lateral.</message>
 </locale>

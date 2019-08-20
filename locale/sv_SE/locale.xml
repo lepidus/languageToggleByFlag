@@ -16,6 +16,6 @@
   -->
  
 <locale name="en_US" full_name="U.S. English">
-	<message key="plugins.block.flagLanguageToggle.displayName">Språkbytesblock</message>
-	<message key="plugins.block.flagLanguageToggle.description">Det här tillägget lägger till ett språkbytesblock i en sidoram</message>
+	<message key="plugins.block.bandeiraIdiomaBlock.displayName">Språkbytesblock</message>
+	<message key="plugins.block.bandeiraIdiomaBlock.description">Det här tillägget lägger till ett språkbytesblock i en sidoram</message>
 </locale>

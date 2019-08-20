@@ -13,6 +13,6 @@
   -->
  
 <locale name="ja_JP" full_name="日本語">
-	<message key="plugins.block.flagLanguageToggle.displayName">言語切り替えブロック</message>
-	<message key="plugins.block.flagLanguageToggle.description">サイドバーに言語切り替メニューを付けます。</message>
+	<message key="plugins.block.bandeiraIdiomaBlock.displayName">言語切り替えブロック</message>
+	<message key="plugins.block.bandeiraIdiomaBlock.description">サイドバーに言語切り替メニューを付けます。</message>
 </locale>

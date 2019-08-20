@@ -1,21 +1,21 @@
 <?php
 
 /**
- * @file plugins/blocks/flaglanguageToggleBlock/FlagLanguageToggleBlockPlugin.inc.php
+ * @file plugins/blocks/bandeiraIdiomaBlock/bandeiraIdiomaBlockPlugin.inc.php
  *
  * Copyright (c) 2014-2019 Simon Fraser University
  * Copyright (c) 2003-2019 John Willinsky
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
- * @class FlagLanguageToggleBlockPlugin
- * @ingroup plugins_blocks_flaglanguageToggle
+ * @class BandeiraIdiomaBlockPlugin
+ * @ingroup plugins_blocks_bandeiraIdioma
  *
  * @brief Class for language selector block plugin
  */
 
 import('lib.pkp.classes.plugins.BlockPlugin');
 
-class ToggleFlagLanguageBlockPlugin extends BlockPlugin {
+class BandeiraIdiomaBlockPlugin extends BlockPlugin {
 	/**
 	 * Determine whether the plugin is enabled. Overrides parent so that
 	 * the plugin will be displayed during install.
@@ -24,7 +24,19 @@ class ToggleFlagLanguageBlockPlugin extends BlockPlugin {
 	 * @return boolean
 	 */
 
-	private $flagPath = "/plugins/blocks/flaglanguageToggle/locale/";
+	// Função que é chamada logo ao iniciar o plugin
+	function register($category, $path, $mainContextId = NULL) {
+		$success = parent::register($category, $path);
+		
+		$request = Application::getRequest();
+		$url = $request->getBaseUrl() . '/' . $this->getPluginPath() . '/flagToggle.css';
+		$templateMgr = TemplateManager::getManager($request);
+		$templateMgr->addStyleSheet('flagToggle', $url);
+		
+		return $success;
+	}
+
+	private $flagPath = "/plugins/blocks/bandeiraIdioma/locale/";
 
 	function getEnabled($contextId = null) {
 		if (!Config::getVar('general', 'installed')) return true;
@@ -75,14 +87,14 @@ class ToggleFlagLanguageBlockPlugin extends BlockPlugin {
 	 * @return String
 	 */
 	function getDisplayName() {
-		return __('plugins.block.flagLanguageToggleBlock.displayName');
+		return __('plugins.block.bandeiraIdiomaBlock.displayName');
 	}
 
 	/**
 	 * Get a description of the plugin.
 	 */
 	function getDescription() {
-		return __('plugins.block.flagLanguageToggleBlock.description');
+		return __('plugins.block.bandeiraIdiomaBlock.description');
 	}
 
 	/**
@@ -90,15 +102,6 @@ class ToggleFlagLanguageBlockPlugin extends BlockPlugin {
 	 * @param $templateMgr object
 	 * @param $request PKPRequest
 	 */
-	
-	function register($category, $path, $mainContextId = NULL) {
-		$success = parent::register($category, $path);
-		$request = Application::getRequest();
-		$url = $request->getBaseUrl() . '/' . $this->getPluginPath() . '/flagToggle.css';
-		$templateMgr = TemplateManager::getManager($request);
-		$templateMgr->addStyleSheet('flagToggle', $url);
-		return $success;
-	}
 
 	function getContents($templateMgr, $request = null){
 

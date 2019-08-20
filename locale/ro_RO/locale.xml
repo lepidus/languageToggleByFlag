@@ -13,6 +13,6 @@
   -->
  
 <locale name="ro_RO" full_name="Română">
-	<message key="plugins.block.flagLanguageToggle.displayName">Zona pentru schimbarea limbilor</message>
-	<message key="plugins.block.flagLanguageToggle.description">Acest modul oferă un instrument necesar schimbării limbii.</message>
+	<message key="plugins.block.bandeiraIdiomaBlock.displayName">Zona pentru schimbarea limbilor</message>
+	<message key="plugins.block.bandeiraIdiomaBlock.description">Acest modul oferă un instrument necesar schimbării limbii.</message>
 </locale>
