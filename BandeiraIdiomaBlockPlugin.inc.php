@@ -5,6 +5,8 @@
  *
  * Copyright (c) 2014-2019 Simon Fraser University
  * Copyright (c) 2003-2019 John Willinsky
+ * Copyright (c) 2019 Lepidus Tecnologia
+ * 
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
  * @class BandeiraIdiomaBlockPlugin
@@ -24,10 +26,11 @@ class BandeiraIdiomaBlockPlugin extends BlockPlugin {
 	 * @return boolean
 	 */
 
-	// Função que é chamada logo ao iniciar o plugin
+	// Function called as soon as the plugin loads
 	function register($category, $path, $mainContextId = NULL) {
 		$success = parent::register($category, $path);
 		
+		// Adding CSS to the TemplateMgr
 		$request = Application::getRequest();
 		$url = $request->getBaseUrl() . '/' . $this->getPluginPath() . '/flagToggle.css';
 		$templateMgr = TemplateManager::getManager($request);
@@ -35,8 +38,6 @@ class BandeiraIdiomaBlockPlugin extends BlockPlugin {
 		
 		return $success;
 	}
-
-	private $flagPath = "/plugins/blocks/bandeiraIdioma/locale/";
 
 	function getEnabled($contextId = null) {
 		if (!Config::getVar('general', 'installed')) return true;
@@ -104,8 +105,6 @@ class BandeiraIdiomaBlockPlugin extends BlockPlugin {
 	 */
 
 	function getContents($templateMgr, $request = null){
-
-		$templateMgr->assign('path', $this->flagPath);
 
 		$templateMgr->assign('isPostRequest', $request->isPost());
 		if (!defined('SESSION_DISABLE_INIT')) {

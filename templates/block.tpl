@@ -21,10 +21,12 @@
 				<li class="locale_{$localeKey|escape}{if $localeKey == $currentLocale} current{/if}" lang="{$localeKey|escape}">
 					<a href="{url router=$smarty.const.ROUTE_PAGE page="user" op="setLocale" path=$localeKey source=$smarty.server.REQUEST_URI}">
 						
+						{* Adding a flag according to every language *}
 						<span class="flagToggle {$localeKey}">
 						&nbsp;
 						</span>
 
+						{* Improve the usability making the selected language be bold *}
 						{if $currentLocale === $localeKey}
 							<strong>{$localeName}</strong>
 						
