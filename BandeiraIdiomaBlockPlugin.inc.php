@@ -30,12 +30,6 @@ class BandeiraIdiomaBlockPlugin extends BlockPlugin {
 	function register($category, $path, $mainContextId = NULL) {
 		$success = parent::register($category, $path);
 		
-		// Adding CSS to the TemplateMgr
-		$request = Application::getRequest();
-		$url = $request->getBaseUrl() . '/' . $this->getPluginPath() . '/flagToggle.css';
-		$templateMgr = TemplateManager::getManager($request);
-		$templateMgr->addStyleSheet('flagToggle', $url);
-		
 		return $success;
 	}
 
