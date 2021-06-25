@@ -11,8 +11,8 @@ msgstr ""
 "PO-Revision-Date: 2021-05-21T20:59:34+00:00\n"
 "Language: \n"
 
-msgid "plugins.block.bandeiraIdiomaBlock.displayName"
+msgid "plugins.block.languageToggleByFlagBlock.displayName"
 msgstr "Blok pro přepínání jazyků"
 
-msgid "plugins.block.bandeiraIdiomaBlock.description"
+msgid "plugins.block.languageToggleByFlagBlock.description"
 msgstr "Tento plugin přidá do postranního panelu přepínač jazyků."

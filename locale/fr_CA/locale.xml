@@ -13,6 +13,6 @@
   -->
  
 <locale name="fr_CA" full_name="Français (Canada)">
-	<message key="plugins.block.bandeiraIdiomaBlock.displayName">Bloc de changement de langue</message>
-	<message key="plugins.block.bandeiraIdiomaBlock.description">Ce plugiciel fournit un mécanisme de changement de langue dans l’encadré latéral.</message>
+	<message key="plugins.block.languageToggleByFlagBlock.displayName">Bloc de changement de langue</message>
+	<message key="plugins.block.languageToggleByFlagBlock.description">Ce plugiciel fournit un mécanisme de changement de langue dans l’encadré latéral.</message>
 </locale>

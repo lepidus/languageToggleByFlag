@@ -1,6 +1,6 @@
 variables:
     PRIVATE_TOKEN: 'WbccpUnpG2yiFZptHDCB'
-    PLUGIN_NAME : 'bandeiraIdioma'
+    PLUGIN_NAME : 'languageToggleByFlag'
 
 stages:
     - release

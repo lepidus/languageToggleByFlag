@@ -1,10 +1,10 @@
 <?php
 /**
- * @defgroup plugins_blocks_bandeiraIdioma Flag Language Toggle Block Plugin
+ * @defgroup plugins_blocks_languageToggleByFlag Flag Language Toggle Block Plugin
  */
  
 /**
- * @file plugins/blocks/bandeiraIdioma/index.php
+ * @file plugins/blocks/languageToggleByFlag/index.php
  *
  * Copyright (c) 2014-2019 Simon Fraser University
  * Copyright (c) 2003-2019 John Willinsky
@@ -12,13 +12,13 @@
  *
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
- * @ingroup plugins_blocks_bandeiraIdioma
+ * @ingroup plugins_blocks_languageToggleByFlag
  * @brief Wrapper for language selector block plugin.
  *
  */
 
-require_once('BandeiraIdiomaBlockPlugin.inc.php');
+require_once('LanguageToggleByFlagBlockPlugin.inc.php');
 
-return new BandeiraIdiomaBlockPlugin();
+return new LanguageToggleByFlagBlockPlugin();
 
 

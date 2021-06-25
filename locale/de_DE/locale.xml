@@ -13,6 +13,6 @@
   -->
   
 <locale name="de_DE" full_name="Deutsch (Deutschland)">
-	<message key="plugins.block.bandeiraIdiomaBlock.displayName">Sprachwechsel-Block</message>
-	<message key="plugins.block.bandeiraIdiomaBlock.description">Dieses Plug-In liefert die Sprachwechselmöglichkeit in der Sidebar.</message>
+	<message key="plugins.block.languageToggleByFlagBlock.displayName">Sprachwechsel-Block</message>
+	<message key="plugins.block.languageToggleByFlagBlock.description">Dieses Plug-In liefert die Sprachwechselmöglichkeit in der Sidebar.</message>
 </locale>

@@ -13,6 +13,6 @@
   -->
  
 <locale name="en_US" full_name="U.S. English">
-	<message key="plugins.block.bandeiraIdiomaBlock.displayName">Flag Language Toggle Block</message>
-	<message key="plugins.block.bandeiraIdiomaBlock.description">This plugin provides the sidebar language toggler.</message>
+	<message key="plugins.block.languageToggleByFlagBlock.displayName">Flag Language Toggle Block</message>
+	<message key="plugins.block.languageToggleByFlagBlock.description">This plugin provides the sidebar language toggler.</message>
 </locale>

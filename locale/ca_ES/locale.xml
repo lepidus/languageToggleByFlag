@@ -13,6 +13,6 @@
   -->
  
 <locale name="ca_ES" full_name="Català">
-	<message key="plugins.block.bandeiraIdiomaBlock.displayName">Bloc de commutació de llengües</message>
-	<message key="plugins.block.bandeiraIdiomaBlock.description">Aquest connector proporciona un commutador de llengües a la barra lateral.</message>
+	<message key="plugins.block.languageToggleByFlagBlock.displayName">Bloc de commutació de llengües</message>
+	<message key="plugins.block.languageToggleByFlagBlock.description">Aquest connector proporciona un commutador de llengües a la barra lateral.</message>
 </locale>

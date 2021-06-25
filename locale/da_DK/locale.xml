@@ -13,6 +13,6 @@
   -->
  
 <locale name="da_DK" full_name="Dutch">
-	<message key="plugins.block.bandeiraIdiomaBlock.displayName">Sprogvælgerfunktion</message>
-	<message key="plugins.block.bandeiraIdiomaBlock.description">Dette plugin indsætter funktion til valg af sprog i sidekolonnen.</message>
+	<message key="plugins.block.languageToggleByFlagBlock.displayName">Sprogvælgerfunktion</message>
+	<message key="plugins.block.languageToggleByFlagBlock.description">Dette plugin indsætter funktion til valg af sprog i sidekolonnen.</message>
 </locale>

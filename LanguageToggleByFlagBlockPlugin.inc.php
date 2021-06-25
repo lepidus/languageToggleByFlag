@@ -1,7 +1,7 @@
 <?php
 
 /**
- * @file plugins/blocks/bandeiraIdiomaBlock/bandeiraIdiomaBlockPlugin.inc.php
+ * @file plugins/blocks/languageToggleByFlagBlock/languageToggleByFlagBlockPlugin.inc.php
  *
  * Copyright (c) 2014-2019 Simon Fraser University
  * Copyright (c) 2003-2019 John Willinsky
@@ -9,15 +9,15 @@
  * 
  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
  *
- * @class BandeiraIdiomaBlockPlugin
- * @ingroup plugins_blocks_bandeiraIdioma
+ * @class LanguageToggleByFlagBlockPlugin
+ * @ingroup plugins_blocks_languageToggleByFlag
  *
  * @brief Class for language selector block plugin
  */
 
 import('lib.pkp.classes.plugins.BlockPlugin');
 
-class BandeiraIdiomaBlockPlugin extends BlockPlugin {
+class LanguageToggleByFlagBlockPlugin extends BlockPlugin {
 	/**
 	 * Determine whether the plugin is enabled. Overrides parent so that
 	 * the plugin will be displayed during install.
@@ -82,14 +82,14 @@ class BandeiraIdiomaBlockPlugin extends BlockPlugin {
 	 * @return String
 	 */
 	function getDisplayName() {
-		return __('plugins.block.bandeiraIdiomaBlock.displayName');
+		return __('plugins.block.languageToggleByFlagBlock.displayName');
 	}
 
 	/**
 	 * Get a description of the plugin.
 	 */
 	function getDescription() {
-		return __('plugins.block.bandeiraIdiomaBlock.description');
+		return __('plugins.block.languageToggleByFlagBlock.description');
 	}
 
 	/**

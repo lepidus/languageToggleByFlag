@@ -11,6 +11,6 @@
   * $Id$
   -->
 <locale full_name="Farsi" name="fa_IR" >
-	<message key="plugins.block.bandeiraIdiomaBlock.displayName" >بلوک انتخاب زبان</message>
-	<message key="plugins.block.bandeiraIdiomaBlock.description" >این پلاگین بلوک حاشیه ای برای انتخاب زبان ایجاد میکند.</message>
+	<message key="plugins.block.languageToggleByFlagBlock.displayName" >بلوک انتخاب زبان</message>
+	<message key="plugins.block.languageToggleByFlagBlock.description" >این پلاگین بلوک حاشیه ای برای انتخاب زبان ایجاد میکند.</message>
 </locale>

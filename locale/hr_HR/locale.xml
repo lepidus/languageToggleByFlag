@@ -13,6 +13,6 @@
   -->
  
 <locale name="hr_HR" full_name="Hrvatski">
-	<message key="plugins.block.bandeiraIdiomaBlock.displayName">Blok za izbor jezika</message>
-	<message key="plugins.block.bandeiraIdiomaBlock.description">Ovaj dodatak omogućuje odabir jezika u rubnom izborniku.</message>
+	<message key="plugins.block.languageToggleByFlagBlock.displayName">Blok za izbor jezika</message>
+	<message key="plugins.block.languageToggleByFlagBlock.description">Ovaj dodatak omogućuje odabir jezika u rubnom izborniku.</message>
 </locale>

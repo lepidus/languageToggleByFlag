@@ -15,6 +15,6 @@
   -->
  
 <locale name="uk_UA" full_name="Ukrainian">
-	<message key="plugins.block.bandeiraIdiomaBlock.displayName">Блок зміни мови</message>
-	<message key="plugins.block.bandeiraIdiomaBlock.description">Цей модуль пропонує панель зміни мови.</message>
+	<message key="plugins.block.languageToggleByFlagBlock.displayName">Блок зміни мови</message>
+	<message key="plugins.block.languageToggleByFlagBlock.description">Цей модуль пропонує панель зміни мови.</message>
 </locale>

@@ -13,6 +13,6 @@
   -->
  
 <locale name="vi_VN" full_name="Tiếng Việt">
-	<message key="plugins.block.bandeiraIdiomaBlock.displayName">Chuyển đổi ngôn ngữ</message>
-	<message key="plugins.block.bandeiraIdiomaBlock.description">Công cụ này tạo ra ô chuyển đổi ngôn ngữ ở cột bên.</message>
+	<message key="plugins.block.languageToggleByFlagBlock.displayName">Chuyển đổi ngôn ngữ</message>
+	<message key="plugins.block.languageToggleByFlagBlock.description">Công cụ này tạo ra ô chuyển đổi ngôn ngữ ở cột bên.</message>
 </locale>

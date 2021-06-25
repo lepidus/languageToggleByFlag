@@ -13,6 +13,6 @@
   -->
  
 <locale name="no_NO" full_name="Norwegian">
-	<message key="plugins.block.bandeiraIdiomaBlock.displayName">Språkvekslingsblokk</message>
-	<message key="plugins.block.bandeiraIdiomaBlock.description">Denne programutvidelsen oppretter en språkveksler i sidespalten.</message>
+	<message key="plugins.block.languageToggleByFlagBlock.displayName">Språkvekslingsblokk</message>
+	<message key="plugins.block.languageToggleByFlagBlock.description">Denne programutvidelsen oppretter en språkveksler i sidespalten.</message>
 </locale>
