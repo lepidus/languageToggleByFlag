@@ -4,9 +4,9 @@
 <!--
   * plugins/blocks/languageToggleByFlag/settings.xml
   *
-  * Copyright (c) 2014-2019 Simon Fraser University
-  * Copyright (c) 2003-2019 John Willinsky
-  * Copyright (c) 2019-2020 Lepidus Tecnologia
+  * Copyright (c) 2014-2021 Simon Fraser University
+  * Copyright (c) 2003-2021 John Willinsky
+  * Copyright (c) 2019-2024 Lepidus Tecnologia
   *
   * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
   *
@@ -22,10 +22,6 @@
 	<setting type="int">
 		<name>seq</name>
 		<value>4</value>
-	</setting>
-	<setting type="int">
-		<name>context</name>
-		<value>1</value><!-- BLOCK_CONTEXT_SIDEBAR -->
 	</setting>
 </plugin_settings>
 

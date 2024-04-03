@@ -6,7 +6,7 @@ describe('Language Toggle by Flag - Plugin enabling and setup', function() {
 		cy.waitJQuery();
 		cy.get('#plugins-button').click();
 
-		cy.get('input[id^=select-cell-languagetogglebyflagblockplugin]').check();
-		cy.get('input[id^=select-cell-languagetogglebyflagblockplugin]').should('be.checked');
+		cy.get('input[id^=select-cell-languagetogglebyflagplugin]').check();
+		cy.get('input[id^=select-cell-languagetogglebyflagplugin]').should('be.checked');
 	});
 });
