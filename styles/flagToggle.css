@@ -17,78 +17,75 @@
     margin-right: 5px;
 }
 
-.flagToggle.ca_ES {
-	background-image: url("locale/ca_ES/flag.png")
+.flagToggle.ca {
+	background-image: url("../locale/ca/flag.png")
 }
-.flagToggle.cs_CZ {
-	background-image: url("locale/cs_CZ/flag.png")
+.flagToggle.cs {
+	background-image: url("../locale/cs/flag.png")
 }
-.flagToggle.da_DK {
-	background-image: url("locale/da_DK/flag.png")
+.flagToggle.da {
+	background-image: url("../locale/da/flag.png")
 }
-.flagToggle.de_DE {
-	background-image: url("locale/de_DE/flag.png")
+.flagToggle.de {
+	background-image: url("../locale/de/flag.png")
 }
-.flagToggle.el_GR {
-	background-image: url("locale/el_GR/flag.png")
+.flagToggle.el {
+	background-image: url("../locale/el/flag.png")
 }
 .flagToggle.en {
-	background-image: url("locale/en/flag.png")
+	background-image: url("../locale/en/flag.png")
 }
 .flagToggle.es {
-	background-image: url("locale/es/flag.png")
+	background-image: url("../locale/es/flag.png")
 }
-.flagToggle.es_AR {
-	background-image: url("locale/es_AR/flag.png")
+.flagToggle.eu {
+	background-image: url("../locale/eu/flag.png")
 }
-.flagToggle.eu_ES {
-	background-image: url("locale/eu_ES/flag.png")
-}
-.flagToggle.fa_IR {
-	background-image: url("locale/fa_IR/flag.png")
+.flagToggle.fa {
+	background-image: url("../locale/fa/flag.png")
 }
 .flagToggle.fr_CA {
-	background-image: url("locale/fr_CA/flag.png")
+	background-image: url("../locale/fr_CA/flag.png")
 }
 .flagToggle.fr_FR {
-	background-image: url("locale/fr_FR/flag.png")
+	background-image: url("../locale/fr_FR/flag.png")
 }
-.flagToggle.hr_HR {
-	background-image: url("locale/hr_HR/flag.png")
+.flagToggle.hr {
+	background-image: url("../locale/hr/flag.png")
 }
-.flagToggle.it_IT {
-	background-image: url("locale/it_IT/flag.png")
+.flagToggle.it {
+	background-image: url("../locale/it/flag.png")
 }
-.flagToggle.ja_JP {
-	background-image: url("locale/ja_JP/flag.png")
+.flagToggle.ja {
+	background-image: url("../locale/ja/flag.png")
 }
-.flagToggle.nl_NL {
-	background-image: url("locale/nl_NL/flag.png")
+.flagToggle.nb {
+	background-image: url("../locale/nb/flag.png")
 }
-.flagToggle.no_NO {
-	background-image: url("locale/no_NO/flag.png")
+.flagToggle.nl {
+	background-image: url("../locale/nl/flag.png")
 }
 .flagToggle.pt_BR {
-	background-image: url("locale/pt_BR/flag.png")
+	background-image: url("../locale/pt_BR/flag.png")
 }
 .flagToggle.pt_PT {
-	background-image: url("locale/pt_PT/flag.png")
+	background-image: url("../locale/pt_PT/flag.png")
 }
-.flagToggle.ro_RO {
-	background-image: url("locale/ro_RO/flag.png")
+.flagToggle.ro {
+	background-image: url("../locale/ro/flag.png")
 }
-.flagToggle.ru_RU {
-	background-image: url("locale/ru_RU/flag.png")
+.flagToggle.ru {
+	background-image: url("../locale/ru/flag.png")
 }
-.flagToggle.sv_SE {
-	background-image: url("locale/sv_SE/flag.png")
+.flagToggle.sv {
+	background-image: url("../locale/sv/flag.png")
 }
-.flagToggle.uk_UA {
-	background-image: url("locale/uk_UA/flag.png")
+.flagToggle.uk {
+	background-image: url("../locale/uk/flag.png")
 }
-.flagToggle.vi_VN {
-	background-image: url("locale/vi_VN/flag.png")
+.flagToggle.vi {
+	background-image: url("../locale/vi/flag.png")
 }
 .flagToggle.zh_CN {
-	background-image: url("locale/zh_CN/flag.png")
+	background-image: url("../locale/zh_CN/flag.png")
 }
