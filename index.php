@@ -2,7 +2,7 @@
 /**
  * @defgroup plugins_blocks_languageToggleByFlag Flag Language Toggle Block Plugin
  */
- 
+
 /**
  * @file plugins/blocks/languageToggleByFlag/index.php
  *
@@ -20,5 +20,3 @@
 require_once('LanguageToggleByFlagBlockPlugin.inc.php');
 
 return new LanguageToggleByFlagBlockPlugin();
-
-
