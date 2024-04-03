@@ -5,7 +5,7 @@ describe('Language Toggle by Flag - Toggle of language', function() {
         
         cy.contains('button', 'Appearance').click();
         cy.get('#appearance-setup-button').click();
-        cy.get('span', 'Language Toggle by Flag').parent().within(() => {
+        cy.contains('span', 'Language Toggle by Flag').parent().within(() => {
             cy.get('input[name="sidebar"]').check();
         });
         cy.get('#appearance-setup button:contains("Save")').click();
