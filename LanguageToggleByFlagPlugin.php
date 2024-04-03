@@ -19,6 +19,10 @@ namespace APP\plugins\blocks\languageToggleByFlag;
 
 use PKP\plugins\BlockPlugin;
 use PKP\config\Config;
+use PKP\session\SessionManager;
+use APP\core\Application;
+use PKP\facades\Locale;
+use PKP\i18n\LocaleMetadata;
 
 class LanguageToggleByFlagPlugin extends BlockPlugin
 {
@@ -52,23 +56,24 @@ class LanguageToggleByFlagPlugin extends BlockPlugin
 
     public function getContents($templateMgr, $request = null)
     {
-
         $templateMgr->assign('isPostRequest', $request->isPost());
-        if (!defined('SESSION_DISABLE_INIT')) {
-            $journal = $request->getJournal();
-            if (isset($journal)) {
-                $locales = $journal->getSupportedLocaleNames();
 
-            } else {
-                $site = $request->getSite();
-                $locales = $site->getSupportedLocaleNames();
-            }
+        if (!SessionManager::isDisabled()) {
+            $request ??= Application::get()->getRequest();
+            $context = $request->getContext();
+            $locales = Locale::getFormattedDisplayNames(
+                isset($context)
+                    ? $context->getSupportedLocales()
+                    : $request->getSite()->getSupportedLocales(),
+                Locale::getLocales(),
+                LocaleMetadata::LANGUAGE_LOCALE_ONLY
+            );
         } else {
-            $locales = AppLocale::getAllLocales();
+            $locales = Locale::getFormattedDisplayNames(null, null, LocaleMetadata::LANGUAGE_LOCALE_ONLY);
             $templateMgr->assign('languageToggleNoUser', true);
         }
 
-        if (isset($locales) && count($locales) > 1) {
+        if (!empty($locales)) {
             $templateMgr->assign('enableLanguageToggle', true);
             $templateMgr->assign('languageToggleLocales', $locales);
         }
