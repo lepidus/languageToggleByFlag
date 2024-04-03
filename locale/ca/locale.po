@@ -12,7 +12,7 @@ msgstr ""
 "Language: \n"
 
 msgid "plugins.block.languageToggleByFlag.displayName"
-msgstr "Bloc de commutació de llengües"
+msgstr "Bloc de commutació de llengües per bandera"
 
 msgid "plugins.block.languageToggleByFlag.description"
-msgstr "Aquest connector proporciona un commutador de llengües a la barra lateral."
+msgstr "Aquest connector proporciona un commutador de llengües a la barra lateral amb banderes per a cada llengua"

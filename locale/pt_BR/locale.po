@@ -15,4 +15,4 @@ msgid "plugins.block.languageToggleByFlag.displayName"
 msgstr "Alteração de idioma pela bandeira"
 
 msgid "plugins.block.languageToggleByFlag.description"
-msgstr "Este plugin oferece a ferramenta de alteração de idiomas na barra lateral."
+msgstr "Este plugin oferece a ferramenta de alteração de idiomas na barra lateral com bandeiras para cada idioma"

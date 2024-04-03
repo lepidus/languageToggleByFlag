@@ -12,7 +12,7 @@ msgstr ""
 "Language: \n"
 
 msgid "plugins.block.languageToggleByFlag.displayName"
-msgstr "Sprogvælgerfunktion"
+msgstr "Skift sprog efter flag"
 
 msgid "plugins.block.languageToggleByFlag.description"
-msgstr "Dette plugin indsætter funktion til valg af sprog i sidekolonnen."
+msgstr "Dette plugin indsætter funktion til valg af sprog i sidekolonnen med flag for hvert sprog"

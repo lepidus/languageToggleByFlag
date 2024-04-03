@@ -12,7 +12,7 @@ msgstr ""
 "Language: \n"
 
 msgid "plugins.block.languageToggleByFlag.displayName"
-msgstr "Block Αλλαγής Γλώσσας"
+msgstr "Block Αλλαγής Γλώσσας ανά σημαία"
 
 msgid "plugins.block.languageToggleByFlag.description"
-msgstr "Το plugin αυτό παρέχει ένα εργαλείο Αλλαγής γλώσσας στην πλαϊνή μπάρα."
+msgstr "Το plugin αυτό παρέχει ένα εργαλείο Αλλαγής γλώσσας στην πλαϊνή μπάρα γραμμή με σημαίες για κάθε γλώσσα"

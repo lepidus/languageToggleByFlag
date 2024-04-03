@@ -12,7 +12,7 @@ msgstr ""
 "Language: \n"
 
 msgid "plugins.block.languageToggleByFlag.displayName"
-msgstr "Блок переключения языка"
+msgstr "Блок переключения языка по флагу"
 
 msgid "plugins.block.languageToggleByFlag.description"
-msgstr "Позволяет переключать язык страницы."
+msgstr "Позволяет переключать язык страницы с помощью флагов для каждого языка"

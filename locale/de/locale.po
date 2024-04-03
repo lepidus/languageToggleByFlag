@@ -12,7 +12,7 @@ msgstr ""
 "Language: \n"
 
 msgid "plugins.block.languageToggleByFlag.displayName"
-msgstr "Sprachwechsel-Block"
+msgstr "Sprachwechsel nach Flagge"
 
 msgid "plugins.block.languageToggleByFlag.description"
-msgstr "Dieses Plug-In liefert die Sprachwechselmöglichkeit in der Sidebar."
+msgstr "Dieses Plug-In liefert die Sprachwechselmöglichkeit in der Sidebar mit Flaggen für jede Sprache"

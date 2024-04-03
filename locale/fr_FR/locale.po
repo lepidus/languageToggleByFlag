@@ -12,7 +12,7 @@ msgstr ""
 "Language: \n"
 
 msgid "plugins.block.languageToggleByFlag.displayName"
-msgstr "Bloc de changement de langue"
+msgstr "Bloc de changement de langue per drapeau"
 
 msgid "plugins.block.languageToggleByFlag.description"
-msgstr "Ce plugiciel fournit un mécanisme de changement de langue dans l’encadré latéral."
+msgstr "Ce plugiciel fournit un mécanisme de changement de langue dans l’encadré latéral avec des drapeaux pour chaque langue"

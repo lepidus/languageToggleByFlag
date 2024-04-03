@@ -12,7 +12,7 @@ msgstr ""
 "Language: \n"
 
 msgid "plugins.block.languageToggleByFlag.displayName"
-msgstr "Blocco per la scelta della lingua"
+msgstr "Scelta della lingua per bandiera"
 
 msgid "plugins.block.languageToggleByFlag.description"
-msgstr "Questo plugin inserisce nel menu laterale un menu a tendina per scegliere la lingua dell'interfaccia."
+msgstr "Questo plugin inserisce nel menu laterale un menu a tendina per scegliere la lingua dell'interfaccia con i bandiere per ogni lingua"

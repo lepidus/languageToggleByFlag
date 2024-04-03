@@ -12,7 +12,7 @@ msgstr ""
 "Language: \n"
 
 msgid "plugins.block.languageToggleByFlag.displayName"
-msgstr "Bloque de cambios entre lenguajes"
+msgstr "Bloque de cambios entre lenguajes por bandera"
 
 msgid "plugins.block.languageToggleByFlag.description"
-msgstr "Este plugin permite cambiar entre lenguajes en la barra lateral."
+msgstr "Este plugin permite cambiar entre lenguajes en la barra lateral con banderas para cada lengua"

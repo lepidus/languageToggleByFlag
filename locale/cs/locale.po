@@ -12,7 +12,7 @@ msgstr ""
 "Language: \n"
 
 msgid "plugins.block.languageToggleByFlag.displayName"
-msgstr "Blok pro přepínání jazyků"
+msgstr "Blok pro přepínání jazyků podle příznaku"
 
 msgid "plugins.block.languageToggleByFlag.description"
-msgstr "Tento plugin přidá do postranního panelu přepínač jazyků."
+msgstr "Tento plugin přidá do postranního panelu přepínač jazyků s příznaky pro každý jazyk"

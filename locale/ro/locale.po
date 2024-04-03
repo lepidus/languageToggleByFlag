@@ -12,7 +12,7 @@ msgstr ""
 "Language: \n"
 
 msgid "plugins.block.languageToggleByFlag.displayName"
-msgstr "Zona pentru schimbarea limbilor"
+msgstr "Zona pentru schimbarea limbilor după steag"
 
 msgid "plugins.block.languageToggleByFlag.description"
-msgstr "Acest modul oferă un instrument necesar schimbării limbii."
+msgstr "Acest modul oferă un instrument necesar schimbării limbii cu steaguri pentru fiecare limbă"
