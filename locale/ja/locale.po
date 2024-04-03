@@ -12,7 +12,7 @@ msgstr ""
 "Language: \n"
 
 msgid "plugins.block.languageToggleByFlag.displayName"
-msgstr "语言切换单元"
+msgstr "言語切り替えブロック"
 
 msgid "plugins.block.languageToggleByFlag.description"
-msgstr "本插件在边栏提供语言切换."
+msgstr "サイドバーに言語切り替メニューを付けます。"
