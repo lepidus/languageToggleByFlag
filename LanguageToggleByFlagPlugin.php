@@ -70,7 +70,6 @@ class LanguageToggleByFlagPlugin extends BlockPlugin
             );
         } else {
             $locales = Locale::getFormattedDisplayNames(null, null, LocaleMetadata::LANGUAGE_LOCALE_ONLY);
-            $templateMgr->assign('languageToggleNoUser', true);
         }
 
         if (!empty($locales)) {
