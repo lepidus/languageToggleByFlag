@@ -8,6 +8,8 @@ This plugin adds a language switch option, with the display of the corresponding
 * OPS 3.4.0
 * OMP 3.4.0
 
+_Navigate trough the branches to see other versions supported_
+
 ## Installation
 
 1. Enter the administration area of ​​your OPS website through the __Dashboard__.
@@ -16,6 +18,7 @@ This plugin adds a language switch option, with the display of the corresponding
 4. Click __Save__ and the plugin will be installed on your website.
 
 ## License
+
 __This plugin is licensed under the GNU General Public License v3.0__
 
 __Copyright (c) 2019 - 2024 Lepidus Tecnologia__
