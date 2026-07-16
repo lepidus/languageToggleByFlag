@@ -19,7 +19,7 @@ namespace APP\plugins\blocks\languageToggleByFlag;
 
 use PKP\plugins\BlockPlugin;
 use PKP\config\Config;
-use PKP\session\SessionManager;
+use PKP\core\PKPSessionGuard;
 use APP\core\Application;
 use PKP\facades\Locale;
 use PKP\i18n\LocaleMetadata;
@@ -58,7 +58,7 @@ class LanguageToggleByFlagPlugin extends BlockPlugin
     {
         $templateMgr->assign('isPostRequest', $request->isPost());
 
-        if (!SessionManager::isDisabled()) {
+        if (!PKPSessionGuard::isSessionDisable()) {
             $request ??= Application::get()->getRequest();
             $context = $request->getContext();
             $locales = Locale::getFormattedDisplayNames(
