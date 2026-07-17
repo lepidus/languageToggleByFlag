@@ -4,9 +4,7 @@ This plugin adds a language switch option, with the display of the corresponding
 
 ## Compatibility
 
-* OJS 3.4.0
-* OPS 3.4.0
-* OMP 3.4.0
+* OJS 3.5.0
 
 _Navigate trough the branches to see other versions supported_
 
