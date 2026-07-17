@@ -1,8 +1,10 @@
 describe('Language Toggle by Flag - Toggle of language', function() {
 	it('Sets plugin to display at sidebar', function() {
         cy.login('dbarnes', null, 'publicknowledge');
-		cy.contains('a', 'Website').click();
-        
+
+        cy.get('nav').contains('Settings').click();
+        cy.get('nav').contains('Website').click({ force: true });
+
         cy.contains('button', 'Appearance').click();
         cy.get('#appearance-setup-button').click();
         
@@ -22,14 +24,14 @@ describe('Language Toggle by Flag - Toggle of language', function() {
         cy.get('.language_toggle_flag').within(() => {
             cy.contains('Language');
             cy.contains('English');
-            cy.contains('Français');
+            cy.contains('français');
         });
 
         cy.contains('strong', 'English').prev().should('have.css', 'background-image');
         cy.contains('strong', 'English').parent().parent().should('have.class', 'current');
-        cy.contains('a', 'Français').click();
+        cy.contains('a', 'français').click();
 
-        cy.contains('strong', 'Français').prev().should('have.css', 'background-image');
-        cy.contains('strong', 'Français').parent().parent().should('have.class', 'current');
+        cy.contains('strong', 'français').prev().should('have.css', 'background-image');
+        cy.contains('strong', 'français').parent().parent().should('have.class', 'current');
     });
 });
