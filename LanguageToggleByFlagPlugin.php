@@ -10,6 +10,7 @@
  * Distributed under the GNU GPL v3. For full terms see the file docs/COPYING.
  *
  * @class LanguageToggleByFlagPlugin
+ *
  * @ingroup plugins_blocks_languageToggleByFlag
  *
  * @brief Class for language selector by flag block plugin
@@ -17,12 +18,12 @@
 
 namespace APP\plugins\blocks\languageToggleByFlag;
 
-use PKP\plugins\BlockPlugin;
-use PKP\config\Config;
-use PKP\session\SessionManager;
 use APP\core\Application;
+use PKP\config\Config;
+use PKP\core\PKPSessionGuard;
 use PKP\facades\Locale;
 use PKP\i18n\LocaleMetadata;
+use PKP\plugins\BlockPlugin;
 
 class LanguageToggleByFlagPlugin extends BlockPlugin
 {
@@ -58,7 +59,7 @@ class LanguageToggleByFlagPlugin extends BlockPlugin
     {
         $templateMgr->assign('isPostRequest', $request->isPost());
 
-        if (!SessionManager::isDisabled()) {
+        if (!PKPSessionGuard::isSessionDisable()) {
             $request ??= Application::get()->getRequest();
             $context = $request->getContext();
             $locales = Locale::getFormattedDisplayNames(
@@ -70,12 +71,11 @@ class LanguageToggleByFlagPlugin extends BlockPlugin
             );
         } else {
             $locales = Locale::getFormattedDisplayNames(null, null, LocaleMetadata::LANGUAGE_LOCALE_ONLY);
+            $templateMgr->assign('languageToggleNoUser', true);
         }
 
-        if (!empty($locales)) {
-            $templateMgr->assign('enableLanguageToggle', true);
-            $templateMgr->assign('languageToggleLocales', $locales);
-        }
+        $templateMgr->assign('enableLanguageToggle', count($locales) > 1);
+        $templateMgr->assign('languageToggleLocales', $locales);
 
         return parent::getContents($templateMgr, $request);
     }
