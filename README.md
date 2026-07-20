@@ -6,9 +6,9 @@ This plugin adds a language switch option, with the display of the corresponding
 
 ## Compatibility
 
-This branch (`main`) targets **OJS 3.5.x**. Other application versions are supported in dedicated branches:
+This branch (`main`) targets **OJS / OPS / OMP 3.5.x**. Other application versions are supported in dedicated branches:
 
-* OJS 3.5.x ([`main`](https://github.com/lepidus/languageToggleByFlag/tree/main))
+* OJS / OPS / OMP 3.5.x ([`main`](https://github.com/lepidus/languageToggleByFlag/tree/main))
 * OJS / OPS / OMP 3.4.x ([`stable-3_4_0`](https://github.com/lepidus/languageToggleByFlag/tree/stable-3_4_0))
 * OJS 3.2.x / 3.3.x ([`stable-3_3_0`](https://github.com/lepidus/languageToggleByFlag/tree/stable-3_3_0))
 * OJS 3.1.x ([`stable-3_1_2`](https://github.com/lepidus/languageToggleByFlag/tree/stable-3_1_2))

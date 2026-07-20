@@ -6,9 +6,9 @@ Este plugin adiciona uma opção de troca de idioma, com a exibição da bandeir
 
 ## Compatibilidade
 
-Este ramo (`main`) é voltado ao **OJS 3.5.x**. Outras versões das aplicações são suportadas em ramos dedicados:
+Este ramo (`main`) é voltado ao **OJS / OPS / OMP 3.5.x**. Outras versões das aplicações são suportadas em ramos dedicados:
 
-* OJS 3.5.x ([`main`](https://github.com/lepidus/languageToggleByFlag/tree/main))
+* OJS / OPS / OMP 3.5.x ([`main`](https://github.com/lepidus/languageToggleByFlag/tree/main))
 * OJS / OPS / OMP 3.4.x ([`stable-3_4_0`](https://github.com/lepidus/languageToggleByFlag/tree/stable-3_4_0))
 * OJS 3.2.x / 3.3.x ([`stable-3_3_0`](https://github.com/lepidus/languageToggleByFlag/tree/stable-3_3_0))
 * OJS 3.1.x ([`stable-3_1_2`](https://github.com/lepidus/languageToggleByFlag/tree/stable-3_1_2))

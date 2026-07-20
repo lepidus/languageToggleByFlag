@@ -6,9 +6,9 @@ Este plugin añade una opción de cambio de idioma, con la visualización de la 
 
 ## Compatibilidad
 
-Esta rama (`main`) está dirigida a **OJS 3.5.x**. Otras versiones de las aplicaciones son soportadas en ramas dedicadas:
+Esta rama (`main`) está dirigida a **OJS / OPS / OMP 3.5.x**. Otras versiones de las aplicaciones son soportadas en ramas dedicadas:
 
-* OJS 3.5.x ([`main`](https://github.com/lepidus/languageToggleByFlag/tree/main))
+* OJS / OPS / OMP 3.5.x ([`main`](https://github.com/lepidus/languageToggleByFlag/tree/main))
 * OJS / OPS / OMP 3.4.x ([`stable-3_4_0`](https://github.com/lepidus/languageToggleByFlag/tree/stable-3_4_0))
 * OJS 3.2.x / 3.3.x ([`stable-3_3_0`](https://github.com/lepidus/languageToggleByFlag/tree/stable-3_3_0))
 * OJS 3.1.x ([`stable-3_1_2`](https://github.com/lepidus/languageToggleByFlag/tree/stable-3_1_2))
