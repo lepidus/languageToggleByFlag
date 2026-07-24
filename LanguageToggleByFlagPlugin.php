@@ -74,6 +74,14 @@ class LanguageToggleByFlagPlugin extends BlockPlugin
             $templateMgr->assign('languageToggleNoUser', true);
         }
 
+        // Normaliza os nomes dos idiomas para iniciarem com maiúscula (multibyte-safe):
+        // o ICU devolve o endônimo com a grafia nativa ("English", mas "español" /
+        // "português" em minúscula), então capitalizamos a primeira letra de cada nome.
+        $locales = array_map(
+            fn ($name) => mb_strtoupper(mb_substr($name, 0, 1)) . mb_substr($name, 1),
+            $locales
+        );
+
         $templateMgr->assign('enableLanguageToggle', count($locales) > 1);
         $templateMgr->assign('languageToggleLocales', $locales);
 
