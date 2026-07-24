@@ -89,3 +89,22 @@
 .flagToggle.zh_CN {
 	background-image: url("../locale/zh_CN/flag.png")
 }
+
+/*
+ * Códigos de locale do OJS 3.5.
+ * O OJS 3.5 renomeou alguns locales (fr_FR -> fr, nb -> nb_NO, pt_PT -> pt,
+ * zh_CN -> zh_Hans). As regras acima são mantidas para seguir funcionando no
+ * OJS 3.4, e as abaixo cobrem os códigos atuais.
+ */
+.flagToggle.fr {
+	background-image: url("../locale/fr/flag.png")
+}
+.flagToggle.nb_NO {
+	background-image: url("../locale/nb_NO/flag.png")
+}
+.flagToggle.pt {
+	background-image: url("../locale/pt/flag.png")
+}
+.flagToggle.zh_Hans {
+	background-image: url("../locale/zh_Hans/flag.png")
+}
